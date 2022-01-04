@@ -1,9 +1,3 @@
+<h1>New Survey</h1>
 
-<h1>New survey</h1>
-
-
-<%= form_for @survey do |f| %>
-  <%= f.label :name %>
-  <%= f.text_field :name %>
-  <%= f.submit  %>
-<% end %> 
+<%= render "layouts/survey_form" %>
