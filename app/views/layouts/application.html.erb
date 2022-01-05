@@ -10,6 +10,14 @@
   </head>
 
   <body>
-    <%= yield %>
+  <nav class="navbar navbar-light">
+    <a class="navbar-brand" href="/">Rails Survey</a>
+
+  </nav>
+    <div class="container-fluid">
+      <%= flash[:alert] %>
+      <%= flash[:notice] %>
+      <%= yield %>
+    </div>
   </body>
 </html>
