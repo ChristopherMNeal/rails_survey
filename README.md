@@ -23,12 +23,19 @@ This project is a ruby rails app showing CRUD functionality and has-many relatio
 
 ## Setup/Installation Requirements
 
-* Clone the GitHub repository.
-* From the main project directory, enter `bundle install` in the terminal to populate gems.
-* clone done api from timothee-chalamet-api in separate directory and follow setup instruction then run server on port 3001.
-* Run `rails s` to start the Rails server.
-* Open browswer and enter the url http://localhost:3000/ unless otherwise prompted in the terminal.
-* Each refresh of page will show new photo and quote of Timothee Chalamet.
+## Setup/Installation Requirements
+
+* Create and/or navigate to the directory you would like to contain this project on your computer.
+* Git clone this repo.
+* Navigate into project directory 
+* Type bundle install in the terminal to populate gems
+* To create a database using the database backup included in this project, type in your terminal: 
+      createdb [DATABASE NAME] 
+      psql [DATABASE_NAME] < record_store.sql
+      createdb -T [DATABASE_NAME] [TEST_DATABASE_NAME]
+* Type rspec in the terminal to confirm passing of all tests  
+* Type ruby app.rb to run the program with Sinatra
+* Open browswer and enter the url "http://localhost:3000/" unless otherwise prompted in the terminal
 
 ## License
 
