@@ -23,15 +23,13 @@ This project is a ruby rails app showing CRUD functionality and has-many relatio
 
 ## Setup/Installation Requirements
 
-## Setup/Installation Requirements
-
 * Create and/or navigate to the directory you would like to contain this project on your computer.
 * Git clone this repo.
 * Navigate into project directory 
 * Type bundle install in the terminal to populate gems
 * To create a database using the database backup included in this project, type in your terminal: 
       createdb [DATABASE NAME] 
-      psql [DATABASE_NAME] < record_store.sql
+      psql [DATABASE_NAME] < rails_survey.sql
       createdb -T [DATABASE_NAME] [TEST_DATABASE_NAME]
 * Type rspec in the terminal to confirm passing of all tests  
 * Type ruby app.rb to run the program with Sinatra
